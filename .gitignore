@@ -30,7 +30,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 
 # vercel
 .vercel
@@ -38,3 +37,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
+config.bat

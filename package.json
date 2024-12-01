@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node api.js && next dev",
     "dev:socket": "NODE_OPTIONS='--loader ts-node/esm --trace-warnings --no-warnings' ts-node server.mts",
-    "build": "next build",
+    "build": "node api.js && next build",
     "build:socket": "next build && tsc --project tsconfig.server.json",
-    "start": "next start",
+    "start": "node api.js && next start",
     "start:socket": "NODE_ENV=production node dist/server.mjs",
     "lint": "next lint"
   },

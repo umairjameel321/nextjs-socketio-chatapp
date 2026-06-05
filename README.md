@@ -5,6 +5,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 First, run the development server:
+```bash
+npm i cross-env --save-dev
+```
+#  replace  "dev:socket": "node --loader ts-node/esm server.mts",
 
 ```bash
 npm run dev

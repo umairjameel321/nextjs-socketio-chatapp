@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dev:socket": "NODE_OPTIONS='--loader ts-node/esm --trace-warnings --no-warnings' ts-node server.mts",
+    "dev:socket": "node --loader ts-node/esm server.mts",
     "build": "next build",
     "build:socket": "next build && tsc --project tsconfig.server.json",
     "start": "next start",
